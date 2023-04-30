@@ -9,6 +9,11 @@ p {
     margin: 0;
 }
 
+footer {
+    font-family: $font-footer;
+    color: $footer-text;
+}
+
 .header {
     margin-bottom: $size-96;
 }
@@ -21,4 +26,10 @@ p {
         rotate: 90deg;
     }
 
+}
+
+.footer {
+    padding-top: $size-96;
+    text-align: center;
+    margin-bottom: $size-10;
 }
