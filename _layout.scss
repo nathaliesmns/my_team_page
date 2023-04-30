@@ -1,0 +1,24 @@
+@use "sass:color";
+@use "base";
+
+figure {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.header {
+    margin-bottom: $size-96;
+}
+
+.person {
+    position: relative;
+
+    &__role {
+        position: absolute;
+        rotate: 90deg;
+    }
+
+}
