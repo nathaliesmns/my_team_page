@@ -1,0 +1,15 @@
+@use "sass:color";
+@use "base";
+
+.description {
+
+    &__header,
+    &__text {
+        font-family: $font-main;
+        font-size: $main;
+    }
+
+    &__header {
+        font-weight: bold;
+    }
+}
